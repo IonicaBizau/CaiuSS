@@ -7,7 +7,7 @@ A Minimalist and Civilized CSS framework.
 ## Demo
 Check out the [online demo](http://ionicabizau.github.io/CaiuSS) or download the `gh-pages` branch to see the demo.
 
-[![](http://i.imgur.com/ovnwiH4.png)](http://ionicabizau.github.io/CaiuSS))
+[![](http://i.imgur.com/ovnwiH4.png)](http://ionicabizau.github.io/CaiuSS)
 
 ## Installation
 Download the [latest release](/dist) or [a release you choose](https://github.com/IonicaBizau/CaiuSS/releases) and include it on the page:
