@@ -45,7 +45,6 @@ html, body, button {
 .hClass (@index) when (@index > 0) {
     h@{index} {
         font-size: 3em/@index;
-
     }
     .hClass(@index - 1);
 }
@@ -64,87 +63,70 @@ html, body, button {
     .transition(background, 0.5s, ease-in);
 }
 
-.btn.btn-black,
-.btn.btn-gray,
-.btn.btn-red,
-.btn.btn-orange,
-.btn.btn-green,
-.btn.btn-blue,
-.btn.btn-purple {
+.bg-black,
+.bg-gray,
+.bg-red,
+.bg-orange,
+.bg-green,
+.bg-blue,
+.bg-purple {
     color: @light_white;
 }
 
-.btn.btn-black {
-    background: @light_black;
-    border-color: @dark_black;
-}
 
-.btn.btn-gray {
-    background: @light_gray;
-    border-color: @dark_gray;
-}
-.btn.btn-red {
-    background: @light_red;
-    border-color: @dark_red;
-}
-.btn.btn-orange {
-    background: @dark_orange;
-    border-color: @dark_orange;
-}
-.btn.btn-yellow {
-    background: @light_yellow;
-    border-color: @dark_yellow;
-}
-.btn.btn-green {
-    background: @light_green;
-    border-color: @dark_green;
-}
-.btn.btn-blue {
-    background: @light_blue;
-    border-color: @dark_blue;
-}
-.btn.btn-purple {
-    background: @light_purple;
-    border-color: @dark_purple;
-}
-.btn.btn-white {
-    background: @light_white;
-    border-color: @dark_white;
-}
+.btn.bg-black { border-color: @dark_black; }
+.btn.bg-gray { border-color: @dark_gray; }
+.btn.bg-red { border-color: @dark_red; }
+.btn.bg-orange { border-color: @dark_orange; }
+.btn.bg-yellow { border-color: @dark_yellow; }
+.btn.bg-green { border-color: @dark_green; }
+.btn.bg-blue { border-color: @dark_blue; }
+.btn.bg-purple { border-color: @dark_purple; }
+.btn.bg-white { border-color: @dark_white; }
 
-.btn.btn-black:hover {
+.bg-black { background: @light_black; }
+.bg-gray { background: @light_gray; }
+.bg-red { background: @light_red; }
+.bg-orange { background: @dark_orange; }
+.bg-yellow { background: @light_yellow; }
+.bg-green { background: @light_green; }
+.bg-blue { background: @light_blue; }
+.bg-purple { background: @light_purple; }
+.bg-white { background: @light_white; }
+
+.btn.bg-black:hover {
     background: lighten(@light_black, 10%);
 }
 
-.btn.btn-gray:hover {
+.btn.bg-gray:hover {
     background: lighten(@light_gray, 10%);
 }
 
-.btn.btn-red:hover {
+.btn.bg-red:hover {
     background: lighten(@light_red, 10%);
 }
 
-.btn.btn-orange:hover {
+.btn.bg-orange:hover {
     background: lighten(@light_orange, 10%);
 }
 
-.btn.btn-yellow:hover {
+.btn.bg-yellow:hover {
     background: lighten(@light_yellow, 10%);
 }
 
-.btn.btn-green:hover {
+.btn.bg-green:hover {
     background: lighten(@light_green, 10%);
 }
 
-.btn.btn-blue:hover {
+.btn.bg-blue:hover {
     background: lighten(@light_blue, 10%);
 }
 
-.btn.btn-purple:hover {
+.btn.bg-purple:hover {
     background: lighten(@light_purple, 10%);
 }
 
-.btn.btn-white:hover {
+.btn.bg-white:hover {
     background: lighten(@light_white, 10%);
 }
 
@@ -182,3 +164,21 @@ html, body, button {
 .form-elm:focus {
     border: 1px solid lighten(@light_black, 40%);
 }
+
+// Padding
+.pad-xs { padding: 5px; }
+.pad-s { padding: 10px; }
+.pad-l { padding: 15px; }
+.pad-xl { padding: 20px; }
+
+// Margin
+.mrg-xs { margin: 5px; }
+.mrg-s { margin: 10px; }
+.mrg-l { margin: 15px; }
+.mrg-xl { margin: 20px; }
+
+// Align
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-justify { text-align: justify; }
