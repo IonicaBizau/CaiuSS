@@ -1,2 +1,4 @@
 #!/bin/sh
 echo "/* CaiuSS CSS Framework by Ionică Bizău\n * https://github.com/IonicaBizau/CaiuSS\n * */\n" `lessc -x less/css/caiuss.less` > dist/caiuss.min.css
+git add dist
+git commit -m 'Updated the min file.'
