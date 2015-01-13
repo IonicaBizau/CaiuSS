@@ -188,3 +188,15 @@ html, body, button {
 .text-right { text-align: right; }
 .text-left { text-align: left; }
 .text-justify { text-align: justify; }
+
+// Links
+a:not(.btn) {
+    color: @light_green;
+    font-weight: bold;
+    text-decoration: none;
+    .transition(color);
+}
+
+a:not(.btn):hover {
+    color: lighten(@light_green, 50);
+}
