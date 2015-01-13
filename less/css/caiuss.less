@@ -27,12 +27,15 @@
 // General
 html, body {
     margin: 0;
-    color: @dark_black;
-    background: #fff;
+    background-color: #fff;
 }
 
 html, body, button {
     font-family: "Open Sans", sans-serif;
+}
+
+html, body, input, textarea {
+    color: @dark_black;
 }
 
 // Responsivity
@@ -64,7 +67,7 @@ html, body, button {
     color: @dark_black;
     border-radius: @border_radius;
     font-weight: bold;
-    .transition(background, 0.5s, ease-in);
+    .transition(background-color, 0.5s, ease-in);
     text-decoration: none;
 }
 
@@ -89,55 +92,55 @@ html, body, button {
 .btn.bg-purple { border-color: @dark_purple; }
 .btn.bg-white { border-color: @dark_white; }
 
-.bg-black { background: @light_black; }
-.bg-gray { background: @light_gray; }
-.bg-red { background: @light_red; }
-.bg-orange { background: @dark_orange; }
-.bg-yellow { background: @light_yellow; }
-.bg-green { background: @light_green; }
-.bg-blue { background: @light_blue; }
-.bg-purple { background: @light_purple; }
-.bg-white { background: @light_white; }
+.bg-black { background-color: @light_black; }
+.bg-gray { background-color: @light_gray; }
+.bg-red { background-color: @light_red; }
+.bg-orange { background-color: @dark_orange; }
+.bg-yellow { background-color: @light_yellow; }
+.bg-green { background-color: @light_green; }
+.bg-blue { background-color: @light_blue; }
+.bg-purple { background-color: @light_purple; }
+.bg-white { background-color: @light_white; }
 
 .btn.bg-black:hover {
-    background: lighten(@light_black, 10%);
+    background-color: lighten(@light_black, 10%);
 }
 
 .btn.bg-gray:hover {
-    background: lighten(@light_gray, 10%);
+    background-color: lighten(@light_gray, 10%);
 }
 
 .btn.bg-red:hover {
-    background: lighten(@light_red, 10%);
+    background-color: lighten(@light_red, 10%);
 }
 
 .btn.bg-orange:hover {
-    background: lighten(@light_orange, 10%);
+    background-color: lighten(@light_orange, 10%);
 }
 
 .btn.bg-yellow:hover {
-    background: lighten(@light_yellow, 10%);
+    background-color: lighten(@light_yellow, 10%);
 }
 
 .btn.bg-green:hover {
-    background: lighten(@light_green, 10%);
+    background-color: lighten(@light_green, 10%);
 }
 
 .btn.bg-blue:hover {
-    background: lighten(@light_blue, 10%);
+    background-color: lighten(@light_blue, 10%);
 }
 
 .btn.bg-purple:hover {
-    background: lighten(@light_purple, 10%);
+    background-color: lighten(@light_purple, 10%);
 }
 
 .btn.bg-white:hover {
-    background: lighten(@light_white, 10%);
+    background-color: lighten(@light_white, 10%);
 }
 
 // Images
 .img {
-    background: @light_white;
+    background-color: @light_white;
     border: 1px solid @dark_white;
     padding: 3px;
     max-width: 100%;
