@@ -16,6 +16,95 @@ Download the [latest release](/dist) or [a release you choose](https://github.co
 <link rel="stylesheet" href="path/to/caiuss.min.css">
 ```
 
+## Elements
+### Container
+```html
+<div class="container">
+    ...
+</div>
+```
+
+### Headings
+
+```html
+<h1>h1 heading</h1>
+<h2>h2 heading</h2>
+<h3>h3 heading</h3>
+<h4>h4 heading</h4>
+<h5>h5 heading</h5>
+<h6>h6 heading</h6>
+```
+
+### Tables
+```sh
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Username</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>1</th>
+            <td>Alice</td>
+            <td>@alice</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Bob</td>
+            <td>@bob</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Carol</td>
+            <td>@carol</td>
+        </tr>
+    </tbody>
+</table>
+```
+
+### Forms
+```html
+<form class="form" action="">
+    <div>
+        <label>
+            <span>Email:</span><br>
+            <input type="email" placeholder="Your email" class="form-elm">
+        </label>
+    </div>
+    <div>
+        <label>
+            <span>Password:</span><br>
+            <input type="password" placeholder="Your password" class="form-elm">
+        </label>
+    </div>
+    <div>
+        <button class="btn bg-white">Login</button>
+    </div>
+</form>
+```
+
+### Buttons
+```html
+<button class="btn bg-red">Red</button>
+<button class="btn bg-orange">Orange</button>
+<button class="btn bg-yellow">Yellow</button>
+<button class="btn bg-green">Green</button>
+<button class="btn bg-blue">Blue</button>
+<button class="btn bg-purple">Purple</button>
+<button class="btn bg-gray">Gray</button>
+<button class="btn bg-white">White</button>
+<button class="btn bg-black">Black</button>
+```
+
+### Images
+
+```html
+<img class="img" src="images/1.jpg">
+```
+
 ## Thanks
 I thank my brother, [@GhitaB](https://github.com/GhitaB) who came with the idea of the project name.
 
