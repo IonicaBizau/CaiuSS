@@ -1,0 +1,2 @@
+#!/usr/bin
+lessc less/css/caiuss.less > dist/caiuss.css
