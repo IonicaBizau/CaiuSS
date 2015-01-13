@@ -16,6 +16,9 @@ Download the [latest release](/dist) or [a release you choose](https://github.co
 <link rel="stylesheet" href="path/to/caiuss.min.css">
 ```
 
+## Thanks
+I thank my brother, [@GhitaB](https://github.com/GhitaB) who came with the idea of the project name.
+
 ## How to contribute
 1. File an issue in the repository, using the bug tracker, describing the
    contribution you'd like to make. This will help us to get you started on the
