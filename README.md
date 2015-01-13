@@ -1,3 +1,5 @@
+![](./logo/caiuss.png)
+
 CaiuSS
 ======
 A Minimalist and Civilized CSS framework.
@@ -5,13 +7,13 @@ A Minimalist and Civilized CSS framework.
 ## Demo
 Check out the [online demo](http://ionicabizau.github.io/CaiuSS) or download the `gh-pages` branch to see the demo.
 
-
+[![](http://i.imgur.com/WK2kkt8.png)](http://ionicabizau.github.io/CaiuSS))
 
 ## Installation
 Download the [latest release](/dist) or [a release you choose](https://github.com/IonicaBizau/CaiuSS/releases) and include it on the page:
 
 ```html
-<link rel="stylesheet" href="path/to/caiuss.css">
+<link rel="stylesheet" href="path/to/caiuss.min.css">
 ```
 
 ## How to contribute
