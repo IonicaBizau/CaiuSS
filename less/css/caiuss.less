@@ -1,14 +1,171 @@
-@base: #f938ab;
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext";
+@import "./util.less";
 
-.box-shadow(@style, @c) when (iscolor(@c)) {
-  -webkit-box-shadow: @style @c;
-  box-shadow:         @style @c;
+// Colors
+@dark_black: #2c3e50;
+@light_black: #34495e;
+@dark_gray: #7f8c8d;
+@light_gray: #95a5a6;
+@dark_red: #c0392b;
+@light_red: #e74c3c;
+@dark_orange: #d35400;
+@light_orange: #e67e22;
+@dark_yellow: #f39c12;
+@light_yellow: #f1c40f;
+@dark_green: #27ae60;
+@light_green: #2ecc71;
+@dark_blue: #2980b9;
+@light_blue: #3498db;
+@dark_purple: #8e44ad;
+@light_purple: #9b59b6;
+@dark_white: #bdc3c7;
+@light_white: #ecf0f1;
+
+// Radius
+@border_radius: 4px;
+
+// General
+html, body {
+    margin: 0;
+    color: @dark_black;
 }
-.box-shadow(@style, @alpha: 50%) when (isnumber(@alpha)) {
-  .box-shadow(@style, rgba(0, 0, 0, @alpha));
+
+html, body, button {
+    font-family: "Open Sans", sans-serif;
 }
-.box {
-  color: saturate(@base, 5%);
-  border-color: lighten(@base, 30%);
-  div { .box-shadow(0 0 5px, 30%) }
+
+// Responsivity
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+// Headings
+.hClass (@index) when (@index > 0) {
+    h@{index} {
+        font-size: 3em/@index;
+
+    }
+    .hClass(@index - 1);
+}
+.hClass(6);
+
+// Buttons
+.btn {
+    margin-right: 3px;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    color: @dark_black;
+    border-radius: @border_radius;
+    font-weight: bold;
+    .transition(background, 0.5s, ease-in);
+}
+
+.btn.btn-black,
+.btn.btn-gray,
+.btn.btn-red,
+.btn.btn-orange,
+.btn.btn-green,
+.btn.btn-blue,
+.btn.btn-purple {
+    color: @light_white;
+}
+
+.btn.btn-black {
+    background: @light_black;
+    border-color: @dark_black;
+}
+
+.btn.btn-gray {
+    background: @light_gray;
+    border-color: @dark_gray;
+}
+.btn.btn-red {
+    background: @light_red;
+    border-color: @dark_red;
+}
+.btn.btn-orange {
+    background: @dark_orange;
+    border-color: @dark_orange;
+}
+.btn.btn-yellow {
+    background: @light_yellow;
+    border-color: @dark_yellow;
+}
+.btn.btn-green {
+    background: @light_green;
+    border-color: @dark_green;
+}
+.btn.btn-blue {
+    background: @light_blue;
+    border-color: @dark_blue;
+}
+.btn.btn-purple {
+    background: @light_purple;
+    border-color: @dark_purple;
+}
+.btn.btn-white {
+    background: @light_white;
+    border-color: @dark_white;
+}
+
+.btn.btn-black:hover {
+    background: lighten(@light_black, 10%);
+}
+
+.btn.btn-gray:hover {
+    background: lighten(@light_gray, 10%);
+}
+
+.btn.btn-red:hover {
+    background: lighten(@light_red, 10%);
+}
+
+.btn.btn-orange:hover {
+    background: lighten(@light_orange, 10%);
+}
+
+.btn.btn-yellow:hover {
+    background: lighten(@light_yellow, 10%);
+}
+
+.btn.btn-green:hover {
+    background: lighten(@light_green, 10%);
+}
+
+.btn.btn-blue:hover {
+    background: lighten(@light_blue, 10%);
+}
+
+.btn.btn-purple:hover {
+    background: lighten(@light_purple, 10%);
+}
+
+.btn.btn-white {
+    background: lighten(@light_white, 10%);
+}
+
+// Images
+.img {
+    background: @light_white;
+    border: 1px solid @dark_white;
+    padding: 3px;
+}
+
+// Table
+.table {
+    border-collapse: collapse;
+    border: 1px solid @dark_black;
+}
+
+.table td, .table th {
+    border: 1px solid @dark_black;
+    padding: 5px 12px;
+}
+
+.table {
+    border-radius: @border_radius;
 }

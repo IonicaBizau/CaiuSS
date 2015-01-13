@@ -1,2 +1,2 @@
-#/usr/bin
+#!/bin/sh
 lessc less/css/caiuss.less > dist/caiuss.css
