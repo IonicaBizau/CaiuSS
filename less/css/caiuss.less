@@ -144,7 +144,7 @@ html, body, button {
     background: lighten(@light_purple, 10%);
 }
 
-.btn.btn-white {
+.btn.btn-white:hover {
     background: lighten(@light_white, 10%);
 }
 
@@ -158,14 +158,27 @@ html, body, button {
 // Table
 .table {
     border-collapse: collapse;
-    border: 1px solid @dark_black;
+    border: 1px solid lighten(@light_black, 20%);
 }
 
 .table td, .table th {
-    border: 1px solid @dark_black;
+    border: 1px solid lighten(@light_black, 20%);
     padding: 5px 12px;
 }
 
 .table {
     border-radius: @border_radius;
+}
+
+// Forms
+.form-elm {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid @dark_white;
+    outline: none;
+}
+
+.form-elm:focus {
+    border: 1px solid lighten(@light_black, 40%);
 }
