@@ -1,2 +1,2 @@
 #!/bin/sh
-lessc -x less/css/caiuss.less > dist/caiuss.css
+echo "/* CaiuSS CSS Framework by Ionică Bizău\n * https://github.com/IonicaBizau/CaiuSS\n * */\n" `lessc -x less/css/caiuss.less` > dist/caiuss.min.css
