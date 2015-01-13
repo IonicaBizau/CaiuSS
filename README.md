@@ -1,4 +1,4 @@
-![](./logo/caiuss.png)
+[![](./logo/caiuss.png)](http://ionicabizau.github.io/CaiuSS)
 
 CaiuSS
 ======
@@ -106,7 +106,7 @@ Download the [latest release](/dist) or [a release you choose](https://github.co
 ```
 
 ## Thanks
-I thank my brother, [@GhitaB](https://github.com/GhitaB) who came with the idea of the project name.
+I thank my brother, [@GhitaB](https://github.com/GhitaB) who came with the idea for the project name.
 
 ## How to contribute
 1. File an issue in the repository, using the bug tracker, describing the
