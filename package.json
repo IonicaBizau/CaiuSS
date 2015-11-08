@@ -20,6 +20,7 @@
     "minimalist"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "contributors": ["Ghiță Bizău <ghita_bizau@yahoo.com> (http://ghitab.blogspot.com)"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/CaiuSS/issues"
