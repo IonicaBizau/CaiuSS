@@ -1,21 +1,24 @@
-[![](./logo/caiuss.png)](http://ionicabizau.github.io/CaiuSS)
+[![caiuss](./logo/caiuss.png)](http://ionicabizau.github.io/CaiuSS)
 
-CaiuSS
-======
+# CaiuSS [![Support this project][donate-now]][paypal-donations]
+
 A Minimalist and Civilized CSS framework.
 
+## Installation
+
+Check out the [`dist`](/dist) directory to download the script and include into your page.
+
+If you want to include CaiuSS in your web page, download the [latest release](/dist) or [a release you choose](https://github.com/IonicaBizau/CaiuSS/releases) and include it on the page:
+
 ## Demo
+
 Check out the [online demo](http://ionicabizau.github.io/CaiuSS) or download the `gh-pages` branch to see the demo.
 
 [![](http://i.imgur.com/rfzstsM.png)](http://ionicabizau.github.io/CaiuSS)
 
-## Installation
-Download the [latest release](/dist) or [a release you choose](https://github.com/IonicaBizau/CaiuSS/releases) and include it on the page:
-
 ```html
 <link rel="stylesheet" href="path/to/caiuss.min.css">
 ```
-
 ## Elements
 ### Container
 ```html
@@ -23,9 +26,7 @@ Download the [latest release](/dist) or [a release you choose](https://github.co
     ...
 </div>
 ```
-
 ### Headings
-
 ```html
 <h1>h1 heading</h1>
 <h2>h2 heading</h2>
@@ -34,9 +35,8 @@ Download the [latest release](/dist) or [a release you choose](https://github.co
 <h5>h5 heading</h5>
 <h6>h6 heading</h6>
 ```
-
 ### Tables
-```sh
+```html
 <table class="table">
     <thead>
         <tr>
@@ -64,7 +64,6 @@ Download the [latest release](/dist) or [a release you choose](https://github.co
     </tbody>
 </table>
 ```
-
 ### Forms
 ```html
 <form class="form" action="">
@@ -85,7 +84,6 @@ Download the [latest release](/dist) or [a release you choose](https://github.co
     </div>
 </form>
 ```
-
 ### Buttons
 ```html
 <button class="btn bg-red">Red</button>
@@ -98,25 +96,32 @@ Download the [latest release](/dist) or [a release you choose](https://github.co
 <button class="btn bg-white">White</button>
 <button class="btn bg-black">Black</button>
 ```
-
 ### Images
-
 ```html
 <img class="img" src="images/1.jpg">
 ```
 
-## Thanks
-I thank my brother, [@GhitaB](https://github.com/GhitaB) who came with the idea for the project name.
+## Documentation
 
 ## How to contribute
-1. File an issue in the repository, using the bug tracker, describing the
-   contribution you'd like to make. This will help us to get you started on the
-   right foot.
-2. Fork the project in your account and create a new branch:
-   `your-great-feature`.
-3. Commit your changes in that branch.
-4. Open a pull request, and reference the initial issue in the pull request
-   message.
+Have an idea? Found a bug? See [how to contribute][contributing].
+
+## Thanks
+
+ - I thank my brother, [@GhitaB](https://github.com/GhitaB) who came with the idea for the project name.
+
+## Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
 
 ## License
-See the [LICENSE](./LICENSE) file.
+
+[KINDLY][license] © [Ionică Bizău][website]
+
+[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2015
+
+[website]: http://ionicabizau.net
+[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
+[donate-now]: http://i.imgur.com/6cMbHOC.png
+
+[contributing]: /CONTRIBUTING.md
+[docs]: /DOCUMENTATION.md

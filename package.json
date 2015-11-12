@@ -1,6 +1,6 @@
 {
   "name": "caiuss",
-  "version": "1.0.2",
+  "version": "1.3.0",
   "description": "A Minimalist and Civilized CSS framework.",
   "main": "index.js",
   "directories": {
@@ -19,11 +19,167 @@
     "framework",
     "minimalist"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "contributors": ["Ghiță Bizău <ghita_bizau@yahoo.com> (http://ghitab.blogspot.com)"],
-  "license": "MIT",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "contributors": [
+    "Ghiță Bizău <ghita_bizau@yahoo.com> (http://ghitab.blogspot.com)"
+  ],
+  "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/CaiuSS/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/CaiuSS"
+  "homepage": "https://github.com/IonicaBizau/CaiuSS",
+  "blah": {
+    "h_img": "./logo/caiuss.png",
+    "h_url": "http://ionicabizau.github.io/CaiuSS",
+    "title": "CaiuSS",
+    "installation": [
+      {
+        "p": "If you want to include CaiuSS in your web page, download the [latest release](/dist) or [a release you choose](https://github.com/IonicaBizau/CaiuSS/releases) and include it on the page:"
+      },
+      {
+        "h2": "Demo"
+      },
+      {
+        "p": "Check out the [online demo](http://ionicabizau.github.io/CaiuSS) or download the `gh-pages` branch to see the demo."
+      },
+      {
+        "p": "[![](http://i.imgur.com/rfzstsM.png)](http://ionicabizau.github.io/CaiuSS)"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": "<link rel=\"stylesheet\" href=\"path/to/caiuss.min.css\">"
+        }
+      },
+      {
+        "h2": "Elements"
+      },
+      {
+        "h3": "Container"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": [
+            "<div class=\"container\">",
+            "    ...",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "h3": "Headings"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": [
+            "<h1>h1 heading</h1>",
+            "<h2>h2 heading</h2>",
+            "<h3>h3 heading</h3>",
+            "<h4>h4 heading</h4>",
+            "<h5>h5 heading</h5>",
+            "<h6>h6 heading</h6>"
+          ]
+        }
+      },
+      {
+        "h3": "Tables"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": [
+            "<table class=\"table\">",
+            "    <thead>",
+            "        <tr>",
+            "            <th>#</th>",
+            "            <th>Name</th>",
+            "            <th>Username</th>",
+            "        </tr>",
+            "    </thead>",
+            "    <tbody>",
+            "        <tr>",
+            "            <th>1</th>",
+            "            <td>Alice</td>",
+            "            <td>@alice</td>",
+            "        </tr>",
+            "        <tr>",
+            "            <th>2</th>",
+            "            <td>Bob</td>",
+            "            <td>@bob</td>",
+            "        </tr>",
+            "        <tr>",
+            "            <th>3</th>",
+            "            <td>Carol</td>",
+            "            <td>@carol</td>",
+            "        </tr>",
+            "    </tbody>",
+            "</table>"
+          ]
+        }
+      },
+      {
+        "h3": "Forms"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": [
+            "<form class=\"form\" action=\"\">",
+            "    <div>",
+            "        <label>",
+            "            <span>Email:</span><br>",
+            "            <input type=\"email\" placeholder=\"Your email\" class=\"form-elm\">",
+            "        </label>",
+            "    </div>",
+            "    <div>",
+            "        <label>",
+            "            <span>Password:</span><br>",
+            "            <input type=\"password\" placeholder=\"Your password\" class=\"form-elm\">",
+            "        </label>",
+            "    </div>",
+            "    <div>",
+            "        <button class=\"btn bg-white\">Login</button>",
+            "    </div>",
+            "</form>"
+          ]
+        }
+      },
+      {
+        "h3": "Buttons"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": [
+            "<button class=\"btn bg-red\">Red</button>",
+            "<button class=\"btn bg-orange\">Orange</button>",
+            "<button class=\"btn bg-yellow\">Yellow</button>",
+            "<button class=\"btn bg-green\">Green</button>",
+            "<button class=\"btn bg-blue\">Blue</button>",
+            "<button class=\"btn bg-purple\">Purple</button>",
+            "<button class=\"btn bg-gray\">Gray</button>",
+            "<button class=\"btn bg-white\">White</button>",
+            "<button class=\"btn bg-black\">Black</button>"
+          ]
+        }
+      },
+      {
+        "h3": "Images"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": "<img class=\"img\" src=\"images/1.jpg\">"
+        }
+      }
+    ],
+    "thanks": {
+      "ul": [
+        "I thank my brother, [@GhitaB](https://github.com/GhitaB) who came with the idea for the project name."
+      ]
+    },
+    "license_year": "2015\n"
+  }
 }
