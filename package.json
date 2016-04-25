@@ -1,8 +1,8 @@
 {
   "name": "caiuss",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "A Minimalist and Civilized CSS framework.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "example": "example"
   },
@@ -181,5 +181,16 @@
       ]
     },
     "license_year": "2015\n"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
