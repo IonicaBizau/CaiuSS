@@ -1,6 +1,6 @@
 {
   "name": "caiuss",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "A Minimalist and Civilized CSS framework.",
   "main": "lib/index.js",
   "directories": {
@@ -190,6 +190,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
