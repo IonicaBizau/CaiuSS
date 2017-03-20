@@ -1,6 +1,6 @@
 {
   "name": "caiuss",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "description": "A Minimalist and Civilized CSS framework.",
   "main": "lib/index.js",
   "directories": {
@@ -19,7 +19,7 @@
     "framework",
     "minimalist"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "contributors": [
     "Ghiță Bizău <ghita_bizau@yahoo.com> (http://ghitab.blogspot.com)"
   ],
@@ -186,12 +186,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
