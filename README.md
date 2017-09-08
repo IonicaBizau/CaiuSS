@@ -14,7 +14,6 @@ If you want to include CaiuSS in your web page, download the [latest release](/d
 
 ## Demo
 
-
 Check out the [online demo](http://ionicabizau.github.io/CaiuSS) or download the `gh-pages` branch to see the demo.
 
 
@@ -23,19 +22,14 @@ Check out the [online demo](http://ionicabizau.github.io/CaiuSS) or download the
 ```html
 <link rel="stylesheet" href="path/to/caiuss.min.css">
 ```
-
 ## Elements
-
 ### Container
-
 ```html
 <div class="container">
     ...
 </div>
 ```
-
 ### Headings
-
 ```html
 <h1>h1 heading</h1>
 <h2>h2 heading</h2>
@@ -44,9 +38,7 @@ Check out the [online demo](http://ionicabizau.github.io/CaiuSS) or download the
 <h5>h5 heading</h5>
 <h6>h6 heading</h6>
 ```
-
 ### Tables
-
 ```html
 <table class="table">
     <thead>
@@ -75,9 +67,7 @@ Check out the [online demo](http://ionicabizau.github.io/CaiuSS) or download the
     </tbody>
 </table>
 ```
-
 ### Forms
-
 ```html
 <form class="form" action="">
     <div>
@@ -97,9 +87,7 @@ Check out the [online demo](http://ionicabizau.github.io/CaiuSS) or download the
     </div>
 </form>
 ```
-
 ### Buttons
-
 ```html
 <button class="btn bg-red">Red</button>
 <button class="btn bg-orange">Orange</button>
@@ -111,13 +99,10 @@ Check out the [online demo](http://ionicabizau.github.io/CaiuSS) or download the
 <button class="btn bg-white">White</button>
 <button class="btn bg-black">Black</button>
 ```
-
 ### Images
-
 ```html
 <img class="img" src="images/1.jpg">
 ```
-
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
