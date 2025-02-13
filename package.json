@@ -1,6 +1,6 @@
 {
   "name": "caiuss",
-  "version": "1.4.14",
+  "version": "1.4.15",
   "description": "A Minimalist and Civilized CSS framework.",
   "main": "lib/index.js",
   "directories": {
@@ -193,6 +193,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
